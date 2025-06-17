@@ -15,4 +15,4 @@
     lsof -i :5000
     kill -9 <PID>
 
-    mlflow ui --backend-store-uri sqlite:///mlflow.db
+    mlflow server --host 127.0.0.1 --port 5000
